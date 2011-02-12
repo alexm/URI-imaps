@@ -1,3 +1,7 @@
+1.02    2011-02-12
+
+  - Return true in URI::secure.
+
 1.01    2004-08-07
 
   - Initial version.

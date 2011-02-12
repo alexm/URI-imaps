@@ -9,6 +9,8 @@ use base qw[URI::_server];
 
 sub default_port { 993 }
 
+sub secure { 1 }
+
 1;
 
 __END__
