@@ -1,4 +1,4 @@
-1.02    2011-02-12
+1.02    2012-01-13
 
   - Return true in URI::secure.
 
