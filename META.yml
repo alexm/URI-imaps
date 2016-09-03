@@ -1,11 +1,22 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         URI-imaps
-version:      1.02
-version_from: lib/URI/imaps.pm
-installdirs:  site
+---
+abstract: 'Support IMAPS URI'
+author:
+  - 'Casey West <casey@geeknest.com>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142690'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: URI-imaps
+no_index:
+  directory:
+    - t
+    - inc
 requires:
-    URI:                           
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.17
+  URI: '0'
+version: '1.03'
